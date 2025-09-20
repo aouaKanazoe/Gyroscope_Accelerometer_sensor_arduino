@@ -1,1 +1,1 @@
-![figure](https://github.com/aouaKanazoe/DC_Motor_Speed_Control/blob/master/docs/schema_simulink_asservissement_PID_DCmotor.png)
+![figure](https://github.com/aouaKanazoe /Gyroscope_Accelerometer_sensor_arduino/blob/master/hardware.jpg)
