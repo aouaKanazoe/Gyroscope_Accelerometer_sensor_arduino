@@ -1,1 +1,1 @@
-![figure](https://github.com/aouaKanazoe /Gyroscope_Accelerometer_sensor_arduino/blob/master/hardware.jpg)
+![figure](https://github.com/aouaKanazoe/Gyroscope_Accelerometer_sensor_arduino/blob/master/hardware.jpg)
