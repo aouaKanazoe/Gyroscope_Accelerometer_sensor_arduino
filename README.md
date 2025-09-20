@@ -1,0 +1,1 @@
+![figure](https://github.com/aouaKanazoe/DC_Motor_Speed_Control/blob/master/docs/schema_simulink_asservissement_PID_DCmotor.png)

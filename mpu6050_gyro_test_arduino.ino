@@ -4,15 +4,20 @@ const int MPU = 0x68;
 int16_t AcX, AcY, AcZ, Tmp, GyX, GyY, GyZ;
 int AcXcal, AcYcal, AcZcal, GyXcal, GyYcal, GyZcal, tcal;
 double t, tx, tf, pitch, roll;
+
 void setup() {
+
       Wire.begin();
       Wire.beginTransmission(MPU);
       Wire.write(0x6B);
       Wire.write(0);
       Wire.endTransmission(true);
       Serial.begin(9600);
+
 }
+
 void loop() {
+  
       Wire.beginTransmission(MPU);
       Wire.write(0x3B);
       Wire.endTransmission(false);
@@ -59,6 +64,7 @@ void loop() {
       Serial.print(" Z = ");
       Serial.println(GyZ + GyZcal);
       delay(1000);
+
 }
 void getAngle(int Ax, int Ay, int Az) 
 {
